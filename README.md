@@ -18,6 +18,8 @@ we have to insatll Tailwind CSS Intellisense Plugin in our VS Code for smuth wor
 we have to install tailwindcss via npm, and create your tailwind.config.js file.
 ```
 npm install -D tailwindcss
+```
+```
 npx tailwindcss init
 ```
 **Configure our template paths**
