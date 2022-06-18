@@ -1,17 +1,17 @@
 # Tailwind_CLI_installation
 
-**step 1:**
+**chacking Node.js installed or Not**
 we have to chack is NPM inistalled in our Computer/Machine or not?
 So we can chack NPM virson by this `node -v` command and it should be higher then `Node.js>=12.3.0`.
 
-**step 1:**
+**initialised NODE Project**
 We have to initialise a NODE Project with this `npm init -y` command.
 
 
-**step 1:**
+**initialised taildwindcss**
 Then we have to initialise taildwindcss as Developer Dependentis in our Project with this `npm i -D tailwindcss` command.
 
-**step 1:**
+**Insatlling Plugin**
 we have to insatll Tailwind CSS Intellisense Plugin in our VS Code for smuth working exparience.
 
 **Install Tailwind CSS**
@@ -74,7 +74,7 @@ we have to add some lines of code in this `settings.json` file.
 }
 ```
 
-**Start using Tailwind in your HTML**
+**Start using Tailwind in our HTML**
 we have to add our compiled CSS file to the <head> in `src/index.html` File and it's time to start using Tailwind’s utility classes to style our content
 
 ```
