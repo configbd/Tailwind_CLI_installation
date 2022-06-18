@@ -19,6 +19,7 @@ we have to install tailwindcss via npm, and create your tailwind.config.js file.
 ```
 npm install -D tailwindcss
 ```
+then
 ```
 npx tailwindcss init
 ```
