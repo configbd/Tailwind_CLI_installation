@@ -59,5 +59,18 @@ Now we can start our Tailwind CLI build by this Command:
 npm run build
 ```
 
+**VS Code Error sign Problem**
+In this position we may face a problem? VS Code show error sign in our css code.
+VS Code can not ditecting TaildwindCSS that's the reson.
 
+**Solve VS Code Problems**
+We have to create a `.vscode` Folder then create a `settings.json` File.
+
+we have to add some lines of code in this `settings.json` file.
+```
+{
+    "css.validate": false,
+    "tailwindCSS.emmetCompletions": true
+}
+```
 
