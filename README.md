@@ -21,7 +21,7 @@ npm install -D tailwindcss
 npx tailwindcss init
 ```
 **Configure our template paths**
-we have to add the paths to all of your template files in our `tailwind.config.js` file.
+we have to add the paths to all of our template files in `tailwind.config.js` file.
 ```
 module.exports = {
   content: ["./src/**/*.{html,js}"],
@@ -31,7 +31,7 @@ module.exports = {
   plugins: [],
 }
 ```
-**Add the Tailwind directives to your CSS**
+**Add the Tailwind directives to our CSS**
 
 We have to add the @tailwind directives for each of Tailwind’s layers to our `src/input.css` main CSS file.
 ```
@@ -39,6 +39,9 @@ We have to add the @tailwind directives for each of Tailwind’s layers to our `
 @tailwind components;
 @tailwind utilities;
 ```
+**Create Folder/Files**
+In this Project we need `src` Folder and in this folder we have to create two files `index.html` and `tailwind.css` it could be any Name, Dosen't mater.
+
 **Create Script**
 we have to add script in our `package.json` file.
 ```
@@ -48,5 +51,10 @@ we have to add script in our `package.json` file.
   ```
 
 **Start the Tailwind CLI build process**
+Now we can start our Tailwind CLI build by this Command: 
+```
+npm run build
+```
+
 
 
