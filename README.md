@@ -15,9 +15,38 @@ Then we have to initialise taildwindcss as Developer Dependentis in our Project 
 we have to insatll Tailwind CSS Intellisense Plugin in our VS Code for smuth working exparience.
 
 **Install Tailwind CSS**
-Install tailwindcss via npm, and create your tailwind.config.js file.
+we have to install tailwindcss via npm, and create your tailwind.config.js file.
 ```
 npm install -D tailwindcss
 npx tailwindcss init
 ```
+**Configure our template paths**
+we have to add the paths to all of your template files in our `tailwind.config.js` file.
+```
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+**Add the Tailwind directives to your CSS**
+
+We have to add the @tailwind directives for each of Tailwind’s layers to our `src/input.css` main CSS file.
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+**Create Script**
+we have to add script in our `package.json` file.
+```
+"scripts": {
+    "build":"npx tailwindcss -i ./src/tailwind.css -o ./dist/style.css --watch"
+  },
+  ```
+
+**Start the Tailwind CLI build process**
+
 
