@@ -74,3 +74,22 @@ we have to add some lines of code in this `settings.json` file.
 }
 ```
 
+**Start using Tailwind in your HTML**
+we have to add our compiled CSS file to the <head> in `src/index.html` File and it's time to start using Tailwind’s utility classes to style our content
+
+```
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
+ ```
+  
